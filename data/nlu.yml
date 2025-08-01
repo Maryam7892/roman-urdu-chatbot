@@ -1,0 +1,317 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hello
+      - hi
+      - assalam o alaikum
+      - salam
+      - namaste
+      - hello bot
+      - kya haal hai?
+      - tum kaisay ho?
+      - kia scene hai?
+
+  - intent: goodbye
+    examples: |
+      - Allah hafiz
+      - khuda hafiz
+      - bye
+      - chalta hoon
+      - miltay hain baad mein
+      - phir miltay hain
+
+  - intent: ask_name
+    examples: |
+      - tumhara naam kya hai?
+      - apna naam batao
+      - kya naam hai tumhara?
+
+  - intent: ask_weather_today
+    examples: |
+      - aaj ka mausam kaisa hai?
+      - mosam ka haal kya hai?
+      - aaj garmi hai?
+      - aaj thand hai?
+      - aaj mausam kaisa hai?
+
+  - intent: ask_weather_tomorrow
+    examples: |
+      - kal barish hogi?
+      - kal ka mausam kaisa hoga?
+      - kya kal thand hogi?
+
+  - intent: ask_hobby
+    examples: |
+      - tumhara shauq kya hai?
+      - free time mein kya karte ho?
+      - kya pasand hai tumhe?
+
+  - intent: express_frustration
+    examples: |
+      - main tang aa gaya hoon
+      - koi baat nahi samajh aa rahi
+      - sab mushkil lag raha hai
+      - mujhe kuch samajh nahi aa raha
+
+  - intent: ask_jokes
+    examples: |
+      - mujhay aaj jokes sunao
+      - mera mood boht kharab hai
+      - mujhay mazaaq karna acha lagta hai
+      - mujhay mazaq sunao
+
+  - intent: ask_job
+    examples: |
+      - tum kya kartay ho?
+      - tumhara kaam kya hai?
+      - tum kaisay kaam kartay ho?
+
+  - intent: ask_food
+    examples: |
+      - tumhara pasandida khana kya hai?
+      - acha khana kya hai?
+      - kya tumhein biryani pasand hai?
+      - kya tum khaana kha sakte ho?
+
+  - intent: ask_origin
+    examples: |
+      - kahan se ho?
+      - tum kis sheher mein ho?
+      - tum kahan ho?
+
+  - intent: ask_age
+    examples: |
+      - kitni umar hai tumhari?
+      - tumhari age kya hai?
+
+  - intent: ask_color
+    examples: |
+      - tumhara pasandida rang kya hai?
+      - tumhe konsa colour acha lagta hai?
+
+  - intent: ask_mood
+    examples: |
+      - aaj kya plan hai?
+      - tumhara mood kaisa hai?
+
+  - intent: ask_movie
+    examples: |
+      - tumhara pasandida movie kaunsi hai?
+      - kya tumhe movies pasand hain?
+      - latest movie konsi hai?
+
+  - intent: ask_music
+    examples: |
+      - tumhara pasandida gaana kya hai?
+      - music pasand hai tumhein?
+
+  - intent: ask_pet
+    examples: |
+      - kya tumhein ghar mein koi pel paal hai?
+      - tumhare paas pet hai?
+
+  - intent: ask_tv
+    examples: |
+      - tumhara favorite TV show kaunsa hai?
+      - tum TV dekhtay ho?
+
+  - intent: ask_superhero
+    examples: |
+      - tumhara pasandida superhero kaunsa hai?
+
+  - intent: ask_time
+    examples: |
+      - kya time hua hai?
+      - abhi kya waqt hai?
+      - mujhe waqt batao
+      - time batana mujhay
+      - mujhay time batao
+      - kitna baj gaya hai?
+
+  - intent: ask_day
+    examples: |
+      - aaj ka din kya hai?
+      - kon sa din hai aaj?
+      - mujhay din batao
+      - aaj kya din hai?
+  
+  - intent: affirm_wellbeing
+    examples: |
+      - main theek hoon
+      - sab theek hai
+      - mein acha hoon
+      - theek hoon
+
+
+  - intent: ask_joke
+    examples: |
+      - koi mazak sunao
+      - koi joke sunao
+      - mujhe hansao
+      - mujhe koi joke sunao
+      - kuch funny sunao
+      - mazaaq sunao
+      - koi chutkula sunao
+
+  - intent: ask_location
+    examples: |
+      - tum kahan ho?
+      - tum kis sheher mein ho?
+      - location kya hai tumhari?
+
+  - intent: ask_language
+    examples: |
+      - tum kis language mein baat karte ho?
+      - kon si language aati hai tumhein?
+
+  - intent: ask_creator
+    examples: |
+      - tumhein kisne banaya?
+      - tumhara creator kaun hai?
+
+  - intent: ask_help
+    examples: |
+      - mujhe madad chahiye
+      - help karo
+      - thori help chahiye
+
+  - intent: thanks
+    examples: |
+      - shukriya
+      - thank you
+      - bohat shukriya
+
+  - intent: insult_bot
+    examples: |
+      - tum bekaar ho
+      - tumhe kuch nahi aata
+      - tum bohat badtameez ho
+
+  - intent: compliment_bot
+    examples: |
+      - tum buhat acha kaam karte ho
+      - tum smart ho
+      - acha lagta hai tumse baat kar ke
+
+  - intent: emotion_sad
+    examples: |
+      - main udaas hoon
+      - mera din kharab gaya
+      - mera dil toota hai
+      - main pareshan hoon
+      - mera dil udaas hai
+      - mujhe bura lag raha hai
+      - main aaj boht dukhi hoon
+
+  - intent: emotion_happy
+    examples: |
+      - main khush hoon
+      - aaj bohat acha lag raha hai
+
+  - intent: emotion_bored
+    examples: |
+      - main bore ho raha hoon
+      - kuch interesting karo
+
+  - intent: ask_travel
+    examples: |
+      - kahan jana acha hai?
+      - kya tum safar pasand karte ho?
+      - tumhara favorite sheher kya hai?
+
+  - intent: ask_family
+    examples: |
+      - tumhare bhai behan hain?
+      - tumhara ghar kahan hai?
+      - tum kis ke saath rehte ho?
+
+  - intent: ask_religion
+    examples: |
+      - tum Musalman ho?
+      - tum namaaz parhte ho?
+
+  - intent: fun_fact
+    examples: |
+      - kuch naya sunao
+      - kya tumhein kuch interesting pata hai?
+
+  - intent: bot_capabilities
+    examples: |
+      - tum kya kar sakte ho?
+      - tum kitne intelligent ho?
+
+  - intent: bot_info
+    examples: |
+      - tumhara favorite rang kya hai?
+
+  - intent: report_health
+    examples: |
+      - mera sir dard kar raha hai
+      - bukhar ho gaya hai
+      - mein beemar hoon
+
+  - intent: ask_money
+    examples: |
+      - mujhe paisay chahiye
+      - paisay do
+
+  - intent: check_balance
+    examples: |
+      - account balance kya hai?
+
+  - intent: ask_loan_info
+    examples: |
+      - loan kaise milta hai?
+
+  - intent: study_help
+    examples: |
+      - mujhe maths samajh nahi aati
+
+  - intent: study_deadline
+    examples: |
+      - assignment kab submit karni hai?
+
+  - intent: talk_love
+    examples: |
+      - mujhe kisi se pyaar ho gaya hai
+      - kya tum mujhse pyaar karte ho?
+
+  - intent: talk_heartbreak
+    examples: |
+      - mera dil toota hai
+
+  - intent: work_stress
+    examples: |
+      - mujhe kaam ka pressure hai
+      - office ka mood theek nahi hai
+  
+  - intent: who_are_you
+    examples: |
+      - tum kon ho?
+      - kon ho tum?
+      - tumhara naam kya hai?
+      - kya tum insan ho?
+      - kya tum robot ho?
+
+  - intent: sleep_problem
+    examples: |
+      - neend nahi aati
+
+  - intent: feeling_sleepy
+    examples: |
+      - bohat neend aa rahi hai
+
+  - intent: ask_holiday
+    examples: |
+      - eid kab hai?
+
+  - intent: jumma_greet
+    examples: |
+      - jumma mubarak
+
+  - intent: talk_movies
+    examples: |
+      - kya tumhe movies pasand hain?
+      - latest movie konsi hai?

@@ -1,0 +1,57 @@
+version: "3.1"
+
+stories:
+- story: Small talk and help
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_hobby
+    - action: utter_ask_hobby
+    - intent: ask_help
+    - action: utter_ask_help
+
+- story: identity question
+  steps:
+    - intent: who_are_you
+    - action: utter_who_are_you
+
+
+- story: Weather flow
+  steps:
+    - intent: ask_weather_today
+    - action: utter_ask_weather_today
+    - intent: ask_weather_tomorrow
+    - action: utter_ask_weather_tomorrow
+
+- story: Mood and emotions
+  steps:
+    - intent: emotion_sad
+    - action: utter_emotion_sad
+    - intent: compliment_bot
+    - action: utter_compliment_bot
+    - intent: insult_bot
+    - action: utter_insult_bot
+
+- story: greet and affirm
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: affirm_wellbeing
+    - action: utter_affirm_wellbeing
+
+
+- story: Info and fun
+  steps:
+    - intent: ask_name
+    - action: utter_ask_name
+    - intent: ask_creator
+    - action: utter_ask_creator
+    - intent: fun_fact
+    - action: utter_fun_fact
+
+- story: Goodbye flow
+  steps:
+    - intent: thanks
+    - action: utter_thanks
+    - intent: goodbye
+    - action: utter_goodbye

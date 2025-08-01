@@ -1,0 +1,72 @@
+version: "3.1"
+
+rules:
+  - rule: Greet user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Say goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Ask name
+    steps:
+      - intent: ask_name
+      - action: utter_ask_name
+
+  - rule: Weather today
+    steps:
+      - intent: ask_weather_today
+      - action: utter_ask_weather_today
+
+  - rule: Weather tomorrow
+    steps:
+      - intent: ask_weather_tomorrow
+      - action: utter_ask_weather_tomorrow
+
+  - rule: Ask hobby
+    steps:
+      - intent: ask_hobby
+      - action: utter_ask_hobby
+
+  - rule: Ask food
+    steps:
+      - intent: ask_food
+      - action: utter_ask_food
+
+  - rule: Ask origin
+    steps:
+      - intent: ask_origin
+      - action: utter_ask_origin
+
+  - rule: Ask age
+    steps:
+      - intent: ask_age
+      - action: utter_ask_age
+
+  - rule: Ask help
+    steps:
+      - intent: ask_help
+      - action: utter_ask_help
+
+  - rule: Say thanks
+    steps:
+      - intent: thanks
+      - action: utter_thanks
+  
+  - rule: Say time
+    steps:
+      - intent: ask_time
+      - action: action_tell_time
+
+  - rule: Say day
+    steps:
+      - intent: ask_day
+      - action: action_tell_day
+
+  - rule: Default fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_default_fallback
